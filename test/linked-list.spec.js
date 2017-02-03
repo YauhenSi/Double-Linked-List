@@ -26,6 +26,7 @@ describe('LinkedList', () => {
             const list = new LinkedList();
 
             list.append(123);
+			
             list.append(413);
 
             expect(list.length).to.equal(2);
